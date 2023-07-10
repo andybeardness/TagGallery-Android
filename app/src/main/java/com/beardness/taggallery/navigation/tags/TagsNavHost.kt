@@ -17,11 +17,11 @@ fun TagsNavHost() {
             TagsScreen()
         }
 
-        composable(route = "tag/{id}") {
+        composable(route = "tag/{tagId}") {
             GalleryScreen()
         }
 
-        composable(route = "photo/{id}") {
+        composable(route = "photo/{photoId}") {
             PhotoScreen()
         }
     }

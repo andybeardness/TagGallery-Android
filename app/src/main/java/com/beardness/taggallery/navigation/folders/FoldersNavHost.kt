@@ -17,11 +17,11 @@ fun FoldersNavHost() {
             FoldersScreen()
         }
 
-        composable(route = "folder/{id}") {
+        composable(route = "folder/{folderId}") {
             GalleryScreen()
         }
 
-        composable(route = "photo/{id}") {
+        composable(route = "photo/{photoId}") {
             PhotoScreen()
         }
     }
